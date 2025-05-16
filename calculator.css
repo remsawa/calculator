@@ -1,0 +1,116 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 238, 220)
+
+}
+
+#container{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 450px;
+  width: 600px;
+  border: #e7e7e7 solid 2px;
+}
+
+#calc-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+  height: 550px;
+  width: 425px;
+  background-color: rgb(255, 204, 217);
+  border: solid 2px rgb(222, 88, 111);
+  border-radius: 15px; 
+  padding: 10px;
+}
+
+.display-container {
+  margin: 10px;
+  height: 50px;
+  width: 350px;
+  background-color: #e7e7e7;
+  border-top-left-radius: 15px;
+  border-top-right-radius:15px;
+  border: solid 4px white;
+}
+.display {
+  height: 50px;
+  width: 350px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  width: 350px;
+  background-color: aqua;
+}
+.right-button-container {
+  height: 300px;
+  width: 200px;
+
+}
+.left-button-container {
+  height: 300px;
+  width: 200px;
+  
+}
+
+.top-button-container {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  background-color: blue;
+}
+.
+.top-btn {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  background-color: blue;
+}
+.clear{
+
+}
+.delete{
+
+}
+.pos-neg{
+
+}
+
+.number-button-container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+}
+.row-one{
+
+}
+.row-two{
+
+}
+.row-three {
+
+}
+.row-four { 
+
+}
+.num-btn  {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  background-color: #e7e7e7;
+}
